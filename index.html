@@ -21,6 +21,8 @@
                 <li><a href="#experience">Experience</a></li>
                 <li><a href="#education">Education</a></li>
                 <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#home-intro">우리집 소개</a></li>
+                <li><a href="#hobbies">취미</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
             <button class="nav-toggle" id="navToggle" aria-label="메뉴 토글">
@@ -249,11 +251,153 @@
             </div>
         </section>
 
+        <!-- 우리집 소개 섹션 -->
+        <section id="home-intro" class="section">
+            <div class="container">
+                <h2 class="section-heading">
+                    <span class="section-number">05.</span>
+                    우리집 소개
+                </h2>
+                <div class="home-slider-container">
+                    <button class="slider-btn prev-btn" id="prevBtn" aria-label="이전 이미지">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M15 18l-6-6 6-6"/>
+                        </svg>
+                    </button>
+                    <div class="slider-wrapper">
+                        <div class="slider-track" id="sliderTrack">
+                            <div class="slide">
+                                <img src="우리집/1.jpg" alt="우리집 사진 1" class="slide-image">
+                            </div>
+                            <div class="slide">
+                                <img src="우리집/2.jpg" alt="우리집 사진 2" class="slide-image">
+                            </div>
+                            <div class="slide">
+                                <img src="우리집/3.jpg" alt="우리집 사진 3" class="slide-image">
+                            </div>
+                            <div class="slide">
+                                <img src="우리집/4.jpg" alt="우리집 사진 4" class="slide-image">
+                            </div>
+                            <div class="slide">
+                                <img src="우리집/5.jpg" alt="우리집 사진 5" class="slide-image">
+                            </div>
+                            <div class="slide">
+                                <img src="우리집/6.jpg" alt="우리집 사진 6" class="slide-image">
+                            </div>
+                            <div class="slide">
+                                <img src="우리집/7.jpg" alt="우리집 사진 7" class="slide-image">
+                            </div>
+                            <div class="slide">
+                                <img src="우리집/8.jpg" alt="우리집 사진 8" class="slide-image">
+                            </div>
+                            <div class="slide">
+                                <img src="우리집/9.jpg" alt="우리집 사진 9" class="slide-image">
+                            </div>
+                            <div class="slide">
+                                <img src="우리집/10.jpg" alt="우리집 사진 10" class="slide-image">
+                            </div>
+                            <div class="slide">
+                                <img src="우리집/11.jpg" alt="우리집 사진 11" class="slide-image">
+                            </div>
+                            <div class="slide">
+                                <img src="우리집/12.jpg" alt="우리집 사진 12" class="slide-image">
+                            </div>
+                        </div>
+                    </div>
+                    <button class="slider-btn next-btn" id="nextBtn" aria-label="다음 이미지">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M9 18l6-6-6-6"/>
+                        </svg>
+                    </button>
+                    <div class="slider-indicators" id="sliderIndicators"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 취미 섹션 -->
+        <section id="hobbies" class="section">
+            <div class="container">
+                <h2 class="section-heading">
+                    <span class="section-number">06.</span>
+                    취미
+                </h2>
+                <div class="hobbies-content">
+                    <p class="hobbies-description">
+                        다양한 취미 활동을 통해 삶의 균형을 찾고 있습니다.
+                    </p>
+                    <div class="hobbies-list">
+                        <span class="hobby-tag" id="readingTag">독서</span>
+                        <span class="hobby-tag">여행</span>
+                        <span class="hobby-tag">노래</span>
+                        <span class="hobby-tag">농구</span>
+                        <span class="hobby-tag">수영</span>
+                        <span class="hobby-tag">헬스</span>
+                        <span class="hobby-tag">목공(시작)</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 독서 모달 -->
+        <div class="modal-overlay" id="readingModal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title">독서 목록</h2>
+                    <button class="modal-close" id="closeReadingModal" aria-label="닫기">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="18" y1="6" x2="6" y2="18"></line>
+                            <line x1="6" y1="6" x2="18" y2="18"></line>
+                        </svg>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <ul class="pdf-list">
+                        <li class="pdf-item">
+                            <a href="독서/끌리는_사람은_말투가_다르다.pdf" target="_blank" class="pdf-link">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                                    <polyline points="14 2 14 8 20 8"></polyline>
+                                    <line x1="16" y1="13" x2="8" y2="13"></line>
+                                    <line x1="16" y1="17" x2="8" y2="17"></line>
+                                    <polyline points="10 9 9 9 8 9"></polyline>
+                                </svg>
+                                <span>끌리는 사람은 말투가 다르다</span>
+                            </a>
+                        </li>
+                        <li class="pdf-item">
+                            <a href="독서/쇼펜하우어_인생수업.pdf" target="_blank" class="pdf-link">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                                    <polyline points="14 2 14 8 20 8"></polyline>
+                                    <line x1="16" y1="13" x2="8" y2="13"></line>
+                                    <line x1="16" y1="17" x2="8" y2="17"></line>
+                                    <polyline points="10 9 9 9 8 9"></polyline>
+                                </svg>
+                                <span>쇼펜하우어 인생수업</span>
+                            </a>
+                        </li>
+                        <li class="pdf-item">
+                            <a href="독서/술취한_코끼리_길들이기.pdf" target="_blank" class="pdf-link">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                                    <polyline points="14 2 14 8 20 8"></polyline>
+                                    <line x1="16" y1="13" x2="8" y2="13"></line>
+                                    <line x1="16" y1="17" x2="8" y2="17"></line>
+                                    <polyline points="10 9 9 9 8 9"></polyline>
+                                </svg>
+                                <span>술취한 코끼리 길들이기</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
         <!-- Contact 섹션 -->
         <section id="contact" class="section">
             <div class="container">
                 <h2 class="section-heading">
-                    <span class="section-number">05.</span>
+                    <span class="section-number">07.</span>
                     Get In Touch
                 </h2>
                 <div class="contact-content">
@@ -261,16 +405,29 @@
                         현재 새로운 기회를 찾고 있습니다. 제 포트폴리오에 관심이 있으시다면<br>
                         언제든지 연락 주시기 바랍니다.
                     </p>
-                    <div class="hobbies-section">
-                        <h3 class="hobbies-title">취미</h3>
-                        <div class="hobbies-list">
-                            <span class="hobby-tag">독서</span>
-                            <span class="hobby-tag">여행</span>
-                            <span class="hobby-tag">노래</span>
-                            <span class="hobby-tag">농구</span>
-                            <span class="hobby-tag">수영</span>
-                            <span class="hobby-tag">헬스</span>
-                            <span class="hobby-tag">목공(시작)</span>
+                    <div class="email-section">
+                        <h3 class="email-title">연락처</h3>
+                        <div class="email-links">
+                            <a href="mailto:gooy522@naver.com" class="email-link">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                    <polyline points="22,6 12,13 2,6"/>
+                                </svg>
+                                <span>gooy522@naver.com</span>
+                            </a>
+                            <a href="mailto:gooy522@gmail.com" class="email-link">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                    <polyline points="22,6 12,13 2,6"/>
+                                </svg>
+                                <span>gooy522@gmail.com</span>
+                            </a>
+                            <a href="https://www.youtube.com/@happygooy5555" target="_blank" rel="noopener noreferrer" class="email-link youtube-link">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                                </svg>
+                                <span>YouTube 채널</span>
+                            </a>
                         </div>
                     </div>
                 </div>
