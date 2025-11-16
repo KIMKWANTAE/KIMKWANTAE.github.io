@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>김관태 | 디지털포렌식 전문가</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- 네비게이션 -->
+    <nav class="nav" id="nav">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">KT</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="nav-toggle" id="navToggle" aria-label="메뉴 토글">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- 메인 컨텐츠 -->
+    <main>
+        <!-- Hero 섹션 -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <p class="hero-greeting">안녕하세요, 제 이름은</p>
+                <h1 class="hero-name">
+                    <span class="name-line">김관태</span>
+                </h1>
+                <h2 class="hero-title">디지털포렌식 전문가입니다.</h2>
+                <p class="hero-description">
+                    법무부 검찰청에서 디지털포렌식 전문가로 활동하며,<br>
+                    모바일, 컴퓨터, DB 포렌식 분야에서 전문성을 쌓아왔습니다.
+                </p>
+                <a href="#about" class="cta-button">더 알아보기</a>
+            </div>
+            <div class="hero-scroll">
+                <a href="#about" class="scroll-indicator">
+                    <span>Scroll</span>
+                    <div class="scroll-line"></div>
+                </a>
+            </div>
+        </section>
+
+        <!-- About 섹션 -->
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="section-heading">
+                    <span class="section-number">01.</span>
+                    About Me
+                </h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>
+                            2007년 전산직 9급 공채로 임용되어 검찰청에서 근무하고 있습니다. 
+                            디지털포렌식 분야에서 전문성을 갖추기 위해 지속적으로 학습하고 연구하며, 
+                            모바일, 컴퓨터, DB 포렌식 등 다양한 분야에서 경험을 쌓아왔습니다.
+                        </p>
+                        <p>
+                            2022년에는 DFRWS 호주 국외출장을 통해 국제적인 네트워크를 확장했으며, 
+                            2023년에는 제9회 공인전문수사관 2급(디지털수사분야) 자격을 취득했습니다.
+                        </p>
+                        <p>현재 epros 디지털포렌식 전문수사관 커뮤니티에서 활발히 활동하고 있습니다.</p>
+                        <div class="about-info">
+                            <div class="info-item">
+                                <span class="info-label">생년월일</span>
+                                <span class="info-value">1981.5.22</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">고향</span>
+                                <span class="info-value">강원도 영월 (8살 이후 대구 거주)</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">임용</span>
+                                <span class="info-value">2007. 전산직 9급 공채</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-image">
+                        <div class="image-wrapper">
+                            <img src="P.jpg" alt="김관태" class="profile-photo">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience 섹션 -->
+        <section id="experience" class="section">
+            <div class="container">
+                <h2 class="section-heading">
+                    <span class="section-number">02.</span>
+                    Where I've Worked
+                </h2>
+                <div class="experience-content">
+                    <div class="work-tabs">
+                        <button class="tab-button active" data-tab="workplaces">근무지</button>
+                        <button class="tab-button" data-tab="forensics">포렌식 경력</button>
+                    </div>
+                    <div class="work-content">
+                        <!-- 근무지 탭 -->
+                        <div class="tab-panel active" id="workplaces-panel">
+                            <div class="work-list">
+                                <div class="work-item">
+                                    <h3 class="work-title">수원지검</h3>
+                                    <p class="work-period">2007</p>
+                                </div>
+                                <div class="work-item">
+                                    <h3 class="work-title">김천지청</h3>
+                                </div>
+                                <div class="work-item">
+                                    <h3 class="work-title">대구서부지청</h3>
+                                </div>
+                                <div class="work-item">
+                                    <h3 class="work-title">대구지검</h3>
+                                </div>
+                                <div class="work-item">
+                                    <h3 class="work-title">대구고검</h3>
+                                </div>
+                                <div class="work-item">
+                                    <h3 class="work-title">경주지청</h3>
+                                </div>
+                                <div class="work-item">
+                                    <h3 class="work-title">포항지청</h3>
+                                </div>
+                                <div class="work-item">
+                                    <h3 class="work-title">대구고검</h3>
+                                </div>
+                                <div class="work-item">
+                                    <h3 class="work-title">김천지청</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 포렌식 경력 탭 -->
+                        <div class="tab-panel" id="forensics-panel">
+                            <div class="timeline">
+                                <div class="timeline-item">
+                                    <div class="timeline-marker"></div>
+                                    <div class="timeline-content">
+                                        <span class="timeline-period">2014.7 ~ 2017.1</span>
+                                        <h3 class="timeline-title">모바일, 컴퓨터 포렌식</h3>
+                                    </div>
+                                </div>
+                                <div class="timeline-item">
+                                    <div class="timeline-marker"></div>
+                                    <div class="timeline-content">
+                                        <span class="timeline-period">2021.1 ~ 2025.8</span>
+                                        <h3 class="timeline-title">모바일, 컴퓨터, DB 포렌식</h3>
+                                    </div>
+                                </div>
+                                <div class="timeline-item highlight">
+                                    <div class="timeline-marker"></div>
+                                    <div class="timeline-content">
+                                        <span class="timeline-period">2022.10</span>
+                                        <h3 class="timeline-title">DFRWS 호주 국외출장</h3>
+                                    </div>
+                                </div>
+                                <div class="timeline-item highlight">
+                                    <div class="timeline-marker"></div>
+                                    <div class="timeline-content">
+                                        <span class="timeline-period">2023</span>
+                                        <h3 class="timeline-title">제9회 공인전문수사관 2급 (디지털수사분야)</h3>
+                                    </div>
+                                </div>
+                                <div class="timeline-item">
+                                    <div class="timeline-marker"></div>
+                                    <div class="timeline-content">
+                                        <span class="timeline-period">현재</span>
+                                        <h3 class="timeline-title">epros 디지털포렌식 전문수사관 커뮤니티 활동</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education 섹션 -->
+        <section id="education" class="section">
+            <div class="container">
+                <h2 class="section-heading">
+                    <span class="section-number">03.</span>
+                    Education
+                </h2>
+                <div class="education-grid">
+                    <div class="education-card">
+                        <div class="edu-degree">학사</div>
+                        <h3 class="edu-school">경북대학교</h3>
+                        <p class="edu-department">전자전기컴퓨터학부 (컴퓨터 전공)</p>
+                        <span class="edu-year">2008.2</span>
+                    </div>
+                    <div class="education-card">
+                        <div class="edu-degree">석사</div>
+                        <h3 class="edu-school">서울대학교</h3>
+                        <p class="edu-department">수리정보과학과 (정보보호 및 디지털포렌식)</p>
+                        <span class="edu-year">2025.2</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications 섹션 -->
+        <section id="certifications" class="section">
+            <div class="container">
+                <h2 class="section-heading">
+                    <span class="section-number">04.</span>
+                    Certifications
+                </h2>
+                <div class="cert-grid">
+                    <div class="cert-card">
+                        <div class="cert-icon">🏆</div>
+                        <h3 class="cert-name">디지털포렌식 전문가</h3>
+                    </div>
+                    <div class="cert-card">
+                        <div class="cert-icon">📊</div>
+                        <h3 class="cert-name">전산회계2급</h3>
+                    </div>
+                    <div class="cert-card">
+                        <div class="cert-icon">🔐</div>
+                        <h3 class="cert-name">ACE</h3>
+                    </div>
+                    <div class="cert-card">
+                        <div class="cert-icon">💾</div>
+                        <h3 class="cert-name">SQLD</h3>
+                    </div>
+                    <div class="cert-card">
+                        <div class="cert-icon">🛡️</div>
+                        <h3 class="cert-name">MCFE</h3>
+                    </div>
+                    <div class="cert-card">
+                        <div class="cert-icon">📈</div>
+                        <h3 class="cert-name">ADsP</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact 섹션 -->
+        <section id="contact" class="section">
+            <div class="container">
+                <h2 class="section-heading">
+                    <span class="section-number">05.</span>
+                    Get In Touch
+                </h2>
+                <div class="contact-content">
+                    <p class="contact-text">
+                        현재 새로운 기회를 찾고 있습니다. 제 포트폴리오에 관심이 있으시다면<br>
+                        언제든지 연락 주시기 바랍니다.
+                    </p>
+                    <div class="hobbies-section">
+                        <h3 class="hobbies-title">취미</h3>
+                        <div class="hobbies-list">
+                            <span class="hobby-tag">독서</span>
+                            <span class="hobby-tag">여행</span>
+                            <span class="hobby-tag">노래</span>
+                            <span class="hobby-tag">농구</span>
+                            <span class="hobby-tag">수영</span>
+                            <span class="hobby-tag">헬스</span>
+                            <span class="hobby-tag">목공(시작)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>Designed & Built by 김관태</p>
+            <p class="footer-year">© 2025</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
