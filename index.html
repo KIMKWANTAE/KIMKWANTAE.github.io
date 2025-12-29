@@ -1,457 +1,285 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>김관태 | 디지털포렌식 전문가</title>
+    <meta name="description" content="법무부 검찰청 디지털포렌식 전문가 김관태의 포트폴리오">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
-    <!-- 네비게이션 -->
-    <nav class="nav" id="nav">
-        <div class="nav-container">
-            <div class="nav-logo">
-                <a href="#home">KT</a>
-            </div>
-            <ul class="nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#certifications">Certifications</a></li>
-                <li><a href="#home-intro">우리집 소개</a></li>
-                <li><a href="#hobbies">취미</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-            <button class="nav-toggle" id="navToggle" aria-label="메뉴 토글">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-        </div>
+    <!-- Logo/Crown Icon -->
+    <div class="logo-circle">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 2L15 8L21 9L16 14L18 21L12 17L6 21L8 14L3 9L9 8L12 2Z" fill="currentColor" />
+        </svg>
+    </div>
+
+    <!-- Top Menu -->
+    <nav class="top-menu">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
     </nav>
 
-    <!-- 메인 컨텐츠 -->
+    <!-- Social Links -->
+    <div class="social-links">
+        <a href="https://www.youtube.com/@happygooy5555" target="_blank" rel="noopener noreferrer"
+            aria-label="YouTube">YT</a>
+        <a href="mailto:gooy522@naver.com" aria-label="Email">Email</a>
+        <a href="mailto:gooy522@gmail.com" aria-label="Gmail">Gmail</a>
+    </div>
+
+    <!-- Main Content -->
     <main>
-        <!-- Hero 섹션 -->
-        <section id="home" class="hero">
-            <div class="hero-content">
-                <p class="hero-greeting">안녕하세요, 제 이름은</p>
-                <h1 class="hero-name">
-                    <span class="name-line">김관태</span>
-                </h1>
-                <h2 class="hero-title">디지털포렌식 전문가입니다.</h2>
-                <p class="hero-description">
-                    법무부 검찰청에서 디지털포렌식 전문가로 활동하며,<br>
-                    모바일, 컴퓨터, DB 포렌식 분야에서 전문성을 쌓아왔습니다.
-                </p>
-                <a href="#about" class="cta-button">더 알아보기</a>
-            </div>
-            <div class="hero-scroll">
-                <a href="#about" class="scroll-indicator">
-                    <span>Scroll</span>
-                    <div class="scroll-line"></div>
-                </a>
-            </div>
-        </section>
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h1 class="hero-name">김관태<br>KWANTAE</h1>
+                        <p class="hero-title">디지털포렌식 전문가</p>
+                        <div class="hero-description">
+                            <p>법무부 검찰청에서 디지털포렌식 전문가로 활동하며,</p>
+                            <p>모바일, 컴퓨터, DB 포렌식 분야에서 전문성을 쌓아왔습니다.</p>
+                        </div>
+                    </div>
+                    <div class="hero-image">
+                        <img src="포르투갈.jpg" alt="김관태 프로필" onerror="this.src='P.jpg'">
+                    </div>
+                </div>
 
-        <!-- About 섹션 -->
-        <section id="about" class="section">
-            <div class="container">
-                <h2 class="section-heading">
-                    <span class="section-number">01.</span>
-                    About Me
-                </h2>
-                <div class="about-content">
-                    <div class="about-text">
-                        <p>
-                            2007년 전산직 9급 공채로 임용되어 검찰청에서 근무하고 있습니다. 
-                            디지털포렌식 분야에서 전문성을 갖추기 위해 지속적으로 학습하고 연구하며, 
-                            모바일, 컴퓨터, DB 포렌식 등 다양한 분야에서 경험을 쌓아왔습니다.
-                        </p>
-                        <p>
-                            2022년에는 DFRWS 호주 국외출장을 통해 국제적인 네트워크를 확장했으며, 
-                            2023년에는 제9회 공인전문수사관 2급(디지털수사분야) 자격을 취득했습니다.
-                        </p>
-                        <p>현재 epros 디지털포렌식 전문수사관 커뮤니티에서 활발히 활동하고 있습니다.</p>
-                        <div class="about-info">
-                            <div class="info-item">
-                                <span class="info-label">생년월일</span>
-                                <span class="info-value">1981.5.22</span>
-                            </div>
-                            <div class="info-item">
-                                <span class="info-label">고향</span>
-                                <span class="info-value">강원도 영월 (8살 이후 대구 거주)</span>
-                            </div>
-                            <div class="info-item">
-                                <span class="info-label">임용</span>
-                                <span class="info-value">2007. 전산직 9급 공채</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="about-image">
-                        <div class="image-wrapper">
-                            <img src="P.jpg" alt="김관태" class="profile-photo">
-                        </div>
-                    </div>
+                <!-- Star Accent -->
+                <div class="star-accent">
+                    <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M24 0L24.7082 23.2918L48 24L24.7082 24.7082L24 48L23.2918 24.7082L0 24L23.2918 23.2918L24 0Z"
+                            fill="#E85D33" />
+                    </svg>
                 </div>
             </div>
         </section>
 
-        <!-- Experience 섹션 -->
-        <section id="experience" class="section">
-            <div class="container">
-                <h2 class="section-heading">
-                    <span class="section-number">02.</span>
-                    Where I've Worked
-                </h2>
-                <div class="experience-content">
-                    <div class="work-tabs">
-                        <button class="tab-button active" data-tab="workplaces">근무지</button>
-                        <button class="tab-button" data-tab="forensics">포렌식 경력</button>
-                    </div>
-                    <div class="work-content">
-                        <!-- 근무지 탭 -->
-                        <div class="tab-panel active" id="workplaces-panel">
-                            <div class="work-list">
-                                <div class="work-item">
-                                    <h3 class="work-title">수원지검</h3>
-                                    <p class="work-period">2007</p>
-                                </div>
-                                <div class="work-item">
-                                    <h3 class="work-title">김천지청</h3>
-                                </div>
-                                <div class="work-item">
-                                    <h3 class="work-title">대구서부지청</h3>
-                                </div>
-                                <div class="work-item">
-                                    <h3 class="work-title">대구지검</h3>
-                                </div>
-                                <div class="work-item">
-                                    <h3 class="work-title">대구고검</h3>
-                                </div>
-                                <div class="work-item">
-                                    <h3 class="work-title">경주지청</h3>
-                                </div>
-                                <div class="work-item">
-                                    <h3 class="work-title">포항지청</h3>
-                                </div>
-                                <div class="work-item">
-                                    <h3 class="work-title">대구고검</h3>
-                                </div>
-                                <div class="work-item">
-                                    <h3 class="work-title">김천지청</h3>
-                                </div>
-                            </div>
+        <!-- About Section with Photo -->
+        <section class="about-photo-section">
+            <div class="about-photo-container">
+                <div class="about-photo">
+                    <img src="캐나다.jpg" alt="김관태">
+                </div>
+                <div class="about-photo-text">
+                    <h2 class="section-title-serif">전문성 있는<br>디지털포렌식 전문가</h2>
+                    <p>2007년 전산직 9급 공채로 임용되어 검찰청에서 근무하고 있습니다. 디지털포렌식 분야에서 전문성을 갖추기 위해 지속적으로 학습하고 연구하며, 모바일, 컴퓨터, DB 포렌식
+                        등 다양한 분야에서 경험을 쌓아왔습니다.</p>
+                    <p>2022년에는 DFRWS 호주 국외출장을 통해 국제적인 네트워크를 확장했으며, 2023년에는 제9회 공인전문수사관 2급(디지털수사분야) 자격을 취득했습니다.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- My Expertise Section -->
+        <section id="expertise" class="expertise-section">
+            <div class="expertise-container">
+                <div class="expertise-header">
+                    <div class="expertise-number">(01)</div>
+                    <h2 class="section-title">MY EXPERTISE</h2>
+                </div>
+
+                <div class="expertise-list">
+                    <div class="expertise-item">
+                        <div class="expertise-item-header">
+                            <span class="expertise-number-small">(01)</span>
+                            <h3>FORENSICS PHOTOGRAPHY</h3>
+                            <button class="expertise-toggle" aria-label="토글">
+                                <span class="toggle-icon">+</span>
+                            </button>
                         </div>
-                        <!-- 포렌식 경력 탭 -->
-                        <div class="tab-panel" id="forensics-panel">
-                            <div class="timeline">
-                                <div class="timeline-item">
-                                    <div class="timeline-marker"></div>
-                                    <div class="timeline-content">
-                                        <span class="timeline-period">2014.7 ~ 2017.1</span>
-                                        <h3 class="timeline-title">모바일, 컴퓨터 포렌식</h3>
-                                    </div>
-                                </div>
-                                <div class="timeline-item">
-                                    <div class="timeline-marker"></div>
-                                    <div class="timeline-content">
-                                        <span class="timeline-period">2021.1 ~ 2025.8</span>
-                                        <h3 class="timeline-title">모바일, 컴퓨터, DB 포렌식</h3>
-                                    </div>
-                                </div>
-                                <div class="timeline-item highlight">
-                                    <div class="timeline-marker"></div>
-                                    <div class="timeline-content">
-                                        <span class="timeline-period">2022.10</span>
-                                        <h3 class="timeline-title">DFRWS 호주 국외출장</h3>
-                                    </div>
-                                </div>
-                                <div class="timeline-item highlight">
-                                    <div class="timeline-marker"></div>
-                                    <div class="timeline-content">
-                                        <span class="timeline-period">2023</span>
-                                        <h3 class="timeline-title">제9회 공인전문수사관 2급 (디지털수사분야)</h3>
-                                    </div>
-                                </div>
-                                <div class="timeline-item">
-                                    <div class="timeline-marker"></div>
-                                    <div class="timeline-content">
-                                        <span class="timeline-period">현재</span>
-                                        <h3 class="timeline-title">epros 디지털포렌식 전문수사관 커뮤니티 활동</h3>
-                                    </div>
-                                </div>
-                            </div>
+                        <div class="expertise-content">
+                            <p><strong>2014.7 ~ 2017.1</strong> 모바일, 컴퓨터 포렌식</p>
+                            <p><strong>2021.1 ~ 2025.8</strong> 모바일, 컴퓨터, DB 포렌식</p>
+                            <p><strong>2022.10</strong> DFRWS 호주 국외출장</p>
+                            <p><strong>2023</strong> 제9회 공인전문수사관 2급 (디지털수사분야)</p>
+                        </div>
+                    </div>
+
+                    <div class="expertise-item">
+                        <div class="expertise-item-header">
+                            <span class="expertise-number-small">(02)</span>
+                            <h3>EDUCATION</h3>
+                            <button class="expertise-toggle" aria-label="토글">
+                                <span class="toggle-icon">+</span>
+                            </button>
+                        </div>
+                        <div class="expertise-content">
+                            <p><strong>학사</strong> 경북대학교 전자전기컴퓨터학부 (컴퓨터 전공) - 2008.2</p>
+                            <p><strong>석사</strong> 서울대학교 수리정보과학과 (정보보호 및 디지털포렌식) - 2025.2</p>
+                        </div>
+                    </div>
+
+                    <div class="expertise-item">
+                        <div class="expertise-item-header">
+                            <span class="expertise-number-small">(03)</span>
+                            <h3>CERTIFICATIONS</h3>
+                            <button class="expertise-toggle" aria-label="토글">
+                                <span class="toggle-icon">+</span>
+                            </button>
+                        </div>
+                        <div class="expertise-content">
+                            <p>디지털포렌식 전문가 | 전산회계2급</p>
+                            <p>ACE | SQLD | MCFE | ADsP</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Education 섹션 -->
-        <section id="education" class="section">
-            <div class="container">
-                <h2 class="section-heading">
-                    <span class="section-number">03.</span>
-                    Education
-                </h2>
-                <div class="education-grid">
-                    <div class="education-card">
-                        <div class="edu-degree">학사</div>
-                        <h3 class="edu-school">경북대학교</h3>
-                        <p class="edu-department">전자전기컴퓨터학부 (컴퓨터 전공)</p>
-                        <span class="edu-year">2008.2</span>
-                    </div>
-                    <div class="education-card">
-                        <div class="edu-degree">석사</div>
-                        <h3 class="edu-school">서울대학교</h3>
-                        <p class="edu-department">수리정보과학과 (정보보호 및 디지털포렌식)</p>
-                        <span class="edu-year">2025.2</span>
-                    </div>
+        <!-- Number List Section (Workplaces) -->
+        <section class="number-list-section">
+            <div class="number-list-container">
+                <div class="number-header">
+                    <div class="expertise-number">(02)</div>
+                    <h2 class="section-title">근무지 이력</h2>
+                </div>
+                <div class="number-list">
+                    <div class="number-item">수원지검 <span class="year">2007</span></div>
+                    <div class="number-item">김천지청</div>
+                    <div class="number-item">대구서부지청</div>
+                    <div class="number-item">대구지검</div>
+                    <div class="number-item">대구고검</div>
+                    <div class="number-item">경주지청</div>
+                    <div class="number-item">포항지청</div>
+                    <div class="number-item">대구고검</div>
+                    <div class="number-item">김천지청 <span class="year">현재</span></div>
                 </div>
             </div>
         </section>
 
-        <!-- Certifications 섹션 -->
-        <section id="certifications" class="section">
-            <div class="container">
-                <h2 class="section-heading">
-                    <span class="section-number">04.</span>
-                    Certifications
-                </h2>
-                <div class="cert-grid">
-                    <div class="cert-card">
-                        <div class="cert-icon">🏆</div>
-                        <h3 class="cert-name">디지털포렌식 전문가</h3>
+        <!-- Home Photos Section -->
+        <section id="home-photos" class="home-photos-section">
+            <div class="home-photos-header">
+                <div class="expertise-number">(03)</div>
+                <h2 class="portfolio-title">우리집</h2>
+            </div>
+            <div class="home-slider-container">
+                <button class="slider-arrow prev-arrow" id="homePrevBtn" aria-label="이전 사진">
+                    <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M15 18l-6-6 6-6" />
+                    </svg>
+                </button>
+
+                <div class="home-slider-wrapper">
+                    <div class="home-slider-track" id="homeSliderTrack">
+                        <div class="home-slide">
+                            <img src="우리집/1.jpg" alt="우리집 사진 1">
+                        </div>
+                        <div class="home-slide">
+                            <img src="우리집/2.jpg" alt="우리집 사진 2">
+                        </div>
+                        <div class="home-slide">
+                            <img src="우리집/3.jpg" alt="우리집 사진 3">
+                        </div>
+                        <div class="home-slide">
+                            <img src="우리집/4.jpg" alt="우리집 사진 4">
+                        </div>
+                        <div class="home-slide">
+                            <img src="우리집/5.jpg" alt="우리집 사진 5">
+                        </div>
+                        <div class="home-slide">
+                            <img src="우리집/6.jpg" alt="우리집 사진 6">
+                        </div>
+                        <div class="home-slide">
+                            <img src="우리집/7.jpg" alt="우리집 사진 7">
+                        </div>
+                        <div class="home-slide">
+                            <img src="우리집/8.jpg" alt="우리집 사진 8">
+                        </div>
+                        <div class="home-slide">
+                            <img src="우리집/9.jpg" alt="우리집 사진 9">
+                        </div>
+                        <div class="home-slide">
+                            <img src="우리집/10.jpg" alt="우리집 사진 10">
+                        </div>
+                        <div class="home-slide">
+                            <img src="우리집/11.jpg" alt="우리집 사진 11">
+                        </div>
+                        <div class="home-slide">
+                            <img src="우리집/12.jpg" alt="우리집 사진 12">
+                        </div>
                     </div>
-                    <div class="cert-card">
-                        <div class="cert-icon">📊</div>
-                        <h3 class="cert-name">전산회계2급</h3>
-                    </div>
-                    <div class="cert-card">
-                        <div class="cert-icon">🔐</div>
-                        <h3 class="cert-name">ACE</h3>
-                    </div>
-                    <div class="cert-card">
-                        <div class="cert-icon">💾</div>
-                        <h3 class="cert-name">SQLD</h3>
-                    </div>
-                    <div class="cert-card">
-                        <div class="cert-icon">🛡️</div>
-                        <h3 class="cert-name">MCFE</h3>
-                    </div>
-                    <div class="cert-card">
-                        <div class="cert-icon">📈</div>
-                        <h3 class="cert-name">ADsP</h3>
-                    </div>
+                </div>
+
+                <button class="slider-arrow next-arrow" id="homeNextBtn" aria-label="다음 사진">
+                    <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M9 18l6-6-6-6" />
+                    </svg>
+                </button>
+            </div>
+
+            <div class="home-slider-dots" id="homeSliderDots"></div>
+        </section>
+
+        <!-- Hobbies Section -->
+        <section id="hobbies" class="hobbies-section">
+            <div class="hobbies-container">
+                <h2 class="section-title-serif">취미 생활</h2>
+                <p class="hobbies-description">다양한 취미 활동을 통해 삶의 균형을 찾고 있습니다.</p>
+                <div class="hobbies-grid">
+                    <div class="hobby-card" id="readingCard">독서</div>
+                    <div class="hobby-card">여행</div>
+                    <div class="hobby-card">노래</div>
+                    <div class="hobby-card">농구</div>
+                    <div class="hobby-card">수영</div>
+                    <div class="hobby-card">헬스</div>
+                    <div class="hobby-card">목공(시작)</div>
                 </div>
             </div>
         </section>
 
-        <!-- 우리집 소개 섹션 -->
-        <section id="home-intro" class="section">
-            <div class="container">
-                <h2 class="section-heading">
-                    <span class="section-number">05.</span>
-                    우리집 소개
-                </h2>
-                <div class="home-slider-container">
-                    <button class="slider-btn prev-btn" id="prevBtn" aria-label="이전 이미지">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M15 18l-6-6 6-6"/>
-                        </svg>
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="contact-container">
+                <div class="contact-left">
+                    <h2 class="contact-title">CONTACT</h2>
+                    <div class="contact-info">
+                        <h3>김관태의 연락처</h3>
+                        <p>현재 새로운 기회를 찾고 있습니다.<br>제 포트폴리오에 관심이 있으시다면 언제든지 연락 주시기 바랍니다.</p>
+
+                        <div class="contact-details">
+                            <div class="contact-detail-item">
+                                <span class="label">이메일</span>
+                                <div class="links">
+                                    <a href="mailto:gooy522@naver.com">gooy522@naver.com</a>
+                                    <a href="mailto:gooy522@gmail.com">gooy522@gmail.com</a>
+                                </div>
+                            </div>
+                            <div class="contact-detail-item">
+                                <span class="label">YouTube</span>
+                                <div class="links">
+                                    <a href="https://www.youtube.com/@happygooy5555" target="_blank"
+                                        rel="noopener noreferrer">@happygooy5555</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-right">
+                    <button class="contact-circle-btn" onclick="window.location.href='mailto:gooy522@naver.com'">
+                        <span>GET IN<br>TOUCH</span>
                     </button>
-                    <div class="slider-wrapper">
-                        <div class="slider-track" id="sliderTrack">
-                            <div class="slide">
-                                <img src="우리집/1.jpg" alt="우리집 사진 1" class="slide-image">
-                            </div>
-                            <div class="slide">
-                                <img src="우리집/2.jpg" alt="우리집 사진 2" class="slide-image">
-                            </div>
-                            <div class="slide">
-                                <img src="우리집/3.jpg" alt="우리집 사진 3" class="slide-image">
-                            </div>
-                            <div class="slide">
-                                <img src="우리집/4.jpg" alt="우리집 사진 4" class="slide-image">
-                            </div>
-                            <div class="slide">
-                                <img src="우리집/5.jpg" alt="우리집 사진 5" class="slide-image">
-                            </div>
-                            <div class="slide">
-                                <img src="우리집/6.jpg" alt="우리집 사진 6" class="slide-image">
-                            </div>
-                            <div class="slide">
-                                <img src="우리집/7.jpg" alt="우리집 사진 7" class="slide-image">
-                            </div>
-                            <div class="slide">
-                                <img src="우리집/8.jpg" alt="우리집 사진 8" class="slide-image">
-                            </div>
-                            <div class="slide">
-                                <img src="우리집/9.jpg" alt="우리집 사진 9" class="slide-image">
-                            </div>
-                            <div class="slide">
-                                <img src="우리집/10.jpg" alt="우리집 사진 10" class="slide-image">
-                            </div>
-                            <div class="slide">
-                                <img src="우리집/11.jpg" alt="우리집 사진 11" class="slide-image">
-                            </div>
-                            <div class="slide">
-                                <img src="우리집/12.jpg" alt="우리집 사진 12" class="slide-image">
-                            </div>
-                        </div>
-                    </div>
-                    <button class="slider-btn next-btn" id="nextBtn" aria-label="다음 이미지">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M9 18l6-6-6-6"/>
-                        </svg>
-                    </button>
-                    <div class="slider-indicators" id="sliderIndicators"></div>
-                </div>
-            </div>
-        </section>
 
-        <!-- 취미 섹션 -->
-        <section id="hobbies" class="section">
-            <div class="container">
-                <h2 class="section-heading">
-                    <span class="section-number">06.</span>
-                    취미
-                </h2>
-                <div class="hobbies-content">
-                    <p class="hobbies-description">
-                        다양한 취미 활동을 통해 삶의 균형을 찾고 있습니다.
-                    </p>
-                    <div class="hobbies-list">
-                        <span class="hobby-tag" id="readingTag">독서</span>
-                        <span class="hobby-tag">여행</span>
-                        <span class="hobby-tag">노래</span>
-                        <span class="hobby-tag">농구</span>
-                        <span class="hobby-tag">수영</span>
-                        <span class="hobby-tag">헬스</span>
-                        <span class="hobby-tag">목공(시작)</span>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- 독서 모달 -->
-        <div class="modal-overlay" id="readingModal">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h2 class="modal-title">독서 목록</h2>
-                    <button class="modal-close" id="closeReadingModal" aria-label="닫기">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <line x1="18" y1="6" x2="6" y2="18"></line>
-                            <line x1="6" y1="6" x2="18" y2="18"></line>
-                        </svg>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <ul class="pdf-list">
-                        <li class="pdf-item">
-                            <a href="독서/AGI_천사인가_악마인가_202512.pdf" target="_blank" class="pdf-link">
-                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
-                                    <polyline points="14 2 14 8 20 8"></polyline>
-                                    <line x1="16" y1="13" x2="8" y2="13"></line>
-                                    <line x1="16" y1="17" x2="8" y2="17"></line>
-                                    <polyline points="10 9 9 9 8 9"></polyline>
-                                </svg>
-                                <span>AGI 천사인가 악마인가</span>
-                            </a>
-                        </li>
-                        <li class="pdf-item">
-                            <a href="독서/끌리는_사람은_말투가_다르다.pdf" target="_blank" class="pdf-link">
-                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
-                                    <polyline points="14 2 14 8 20 8"></polyline>
-                                    <line x1="16" y1="13" x2="8" y2="13"></line>
-                                    <line x1="16" y1="17" x2="8" y2="17"></line>
-                                    <polyline points="10 9 9 9 8 9"></polyline>
-                                </svg>
-                                <span>끌리는 사람은 말투가 다르다</span>
-                            </a>
-                        </li>
-                        <li class="pdf-item">
-                            <a href="독서/쇼펜하우어_인생수업.pdf" target="_blank" class="pdf-link">
-                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
-                                    <polyline points="14 2 14 8 20 8"></polyline>
-                                    <line x1="16" y1="13" x2="8" y2="13"></line>
-                                    <line x1="16" y1="17" x2="8" y2="17"></line>
-                                    <polyline points="10 9 9 9 8 9"></polyline>
-                                </svg>
-                                <span>쇼펜하우어 인생수업</span>
-                            </a>
-                        </li>
-                        <li class="pdf-item">
-                            <a href="독서/술취한_코끼리_길들이기.pdf" target="_blank" class="pdf-link">
-                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
-                                    <polyline points="14 2 14 8 20 8"></polyline>
-                                    <line x1="16" y1="13" x2="8" y2="13"></line>
-                                    <line x1="16" y1="17" x2="8" y2="17"></line>
-                                    <polyline points="10 9 9 9 8 9"></polyline>
-                                </svg>
-                                <span>술취한 코끼리 길들이기</span>
-                            </a>
-                        </li>
-                        <li class="pdf-item">
-                            <a href="독서/탑다운_퀄리티_투자_202512.pdf" target="_blank" class="pdf-link">
-                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
-                                    <polyline points="14 2 14 8 20 8"></polyline>
-                                    <line x1="16" y1="13" x2="8" y2="13"></line>
-                                    <line x1="16" y1="17" x2="8" y2="17"></line>
-                                    <polyline points="10 9 9 9 8 9"></polyline>
-                                </svg>
-                                <span>탑다운 퀄리티 투자</span>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-        <!-- Contact 섹션 -->
-        <section id="contact" class="section">
-            <div class="container">
-                <h2 class="section-heading">
-                    <span class="section-number">07.</span>
-                    Get In Touch
-                </h2>
-                <div class="contact-content">
-                    <p class="contact-text">
-                        현재 새로운 기회를 찾고 있습니다. 제 포트폴리오에 관심이 있으시다면<br>
-                        언제든지 연락 주시기 바랍니다.
-                    </p>
-                    <div class="email-section">
-                        <h3 class="email-title">연락처</h3>
-                        <div class="email-links">
-                            <a href="mailto:gooy522@naver.com" class="email-link">
-                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
-                                    <polyline points="22,6 12,13 2,6"/>
-                                </svg>
-                                <span>gooy522@naver.com</span>
-                            </a>
-                            <a href="mailto:gooy522@gmail.com" class="email-link">
-                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
-                                    <polyline points="22,6 12,13 2,6"/>
-                                </svg>
-                                <span>gooy522@gmail.com</span>
-                            </a>
-                            <a href="https://www.youtube.com/@happygooy5555" target="_blank" rel="noopener noreferrer" class="email-link youtube-link">
-                                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-                                    <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
-                                </svg>
-                                <span>YouTube 채널</span>
-                            </a>
+                    <div class="contact-social">
+                        <span>FOLLOW</span>
+                        <div class="social-icons">
+                            <a href="https://www.youtube.com/@happygooy5555" target="_blank"
+                                rel="noopener noreferrer">YT</a>
+                            <a href="mailto:gooy522@naver.com">N</a>
+                            <a href="mailto:gooy522@gmail.com">G</a>
                         </div>
                     </div>
                 </div>
@@ -461,12 +289,120 @@
 
     <!-- Footer -->
     <footer class="footer">
-        <div class="container">
-            <p>Designed & Built by 김관태</p>
-            <p class="footer-year">© 2025</p>
-        </div>
+        <p>Designed & Built by 김관태 © 2025</p>
     </footer>
+
+    <!-- Reading Modal -->
+    <div class="modal-overlay" id="readingModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="modal-title">독서 목록</h2>
+                <button class="modal-close" id="closeReadingModal" aria-label="닫기">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                </button>
+            </div>
+            <div class="modal-body">
+                <ul class="pdf-list">
+                    <li class="pdf-item">
+                        <a href="독서/AGI_천사인가_악마인가_202512.pdf" target="_blank" class="pdf-link">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                                <polyline points="14 2 14 8 20 8"></polyline>
+                                <line x1="16" y1="13" x2="8" y2="13"></line>
+                                <line x1="16" y1="17" x2="8" y2="17"></line>
+                                <polyline points="10 9 9 9 8 9"></polyline>
+                            </svg>
+                            <span>AGI 천사인가 악마인가</span>
+                        </a>
+                    </li>
+                    <li class="pdf-item">
+                        <a href="독서/끌리는_사람은_말투가_다르다.pdf" target="_blank" class="pdf-link">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                                <polyline points="14 2 14 8 20 8"></polyline>
+                                <line x1="16" y1="13" x2="8" y2="13"></line>
+                                <line x1="16" y1="17" x2="8" y2="17"></line>
+                                <polyline points="10 9 9 9 8 9"></polyline>
+                            </svg>
+                            <span>끌리는 사람은 말투가 다르다</span>
+                        </a>
+                    </li>
+                    <li class="pdf-item">
+                        <a href="독서/쇼펜하우어_인생수업.pdf" target="_blank" class="pdf-link">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                                <polyline points="14 2 14 8 20 8"></polyline>
+                                <line x1="16" y1="13" x2="8" y2="13"></line>
+                                <line x1="16" y1="17" x2="8" y2="17"></line>
+                                <polyline points="10 9 9 9 8 9"></polyline>
+                            </svg>
+                            <span>쇼펜하우어 인생수업</span>
+                        </a>
+                    </li>
+                    <li class="pdf-item">
+                        <a href="독서/술취한_코끼리_길들이기.pdf" target="_blank" class="pdf-link">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                                <polyline points="14 2 14 8 20 8"></polyline>
+                                <line x1="16" y1="13" x2="8" y2="13"></line>
+                                <line x1="16" y1="17" x2="8" y2="17"></line>
+                                <polyline points="10 9 9 9 8 9"></polyline>
+                            </svg>
+                            <span>술취한 코끼리 길들이기</span>
+                        </a>
+                    </li>
+                    <li class="pdf-item">
+                        <a href="독서/탑다운_퀄리티_투자_202512.pdf" target="_blank" class="pdf-link">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                                <polyline points="14 2 14 8 20 8"></polyline>
+                                <line x1="16" y1="13" x2="8" y2="13"></line>
+                                <line x1="16" y1="17" x2="8" y2="17"></line>
+                                <polyline points="10 9 9 9 8 9"></polyline>
+                            </svg>
+                            <span>탑다운 퀄리티 투자</span>
+                        </a>
+                    </li>
+                    <li class="pdf-item">
+                        <a href="독서/2025 독서 리스트.pdf" target="_blank" class="pdf-link">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                                <polyline points="14 2 14 8 20 8"></polyline>
+                                <line x1="16" y1="13" x2="8" y2="13"></line>
+                                <line x1="16" y1="17" x2="8" y2="17"></line>
+                                <polyline points="10 9 9 9 8 9"></polyline>
+                            </svg>
+                            <span>2025 독서 리스트</span>
+                        </a>
+                    </li>
+                    <li class="pdf-item">
+                        <a href="독서/고전이_답했다_마땅히_살아야_할_삶에_대하여.pdf" target="_blank" class="pdf-link">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                                <polyline points="14 2 14 8 20 8"></polyline>
+                                <line x1="16" y1="13" x2="8" y2="13"></line>
+                                <line x1="16" y1="17" x2="8" y2="17"></line>
+                                <polyline points="10 9 9 9 8 9"></polyline>
+                            </svg>
+                            <span>고전이 답했다 - 마땅히 살아야 할 삶에 대하여</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
 
     <script src="script.js"></script>
 </body>
+
 </html>
